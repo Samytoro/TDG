@@ -1,0 +1,79 @@
+.inicio-sesion {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .encabezado {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo-un {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .contenido {
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://minas.medellin.unal.edu.co/images/minas/edificios/BloqueM5.jpg');
+    background-size: cover;
+    filter: opacity(0.5);
+  }
+  
+  .formulario {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+  }
+  
+  .formulario h2 {
+    margin-top: 0;
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .formulario input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .formulario button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  

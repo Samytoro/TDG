@@ -1,0 +1,75 @@
+.registro-actividades-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Color de fondo */
+  }
+  
+  .registro-actividades-header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registro-actividades-header img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .registro-actividades-body {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .registro-actividades-form {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro-actividades-form label {
+    margin-bottom: 10px;
+  }
+  
+  .registro-actividades-form input,
+  .registro-actividades-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registro-actividades-form button {
+    background-color: #FFB800; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  .registro-actividades-form button:hover {
+    background-color: #DAAA00; /* Color de fondo del botón al pasar el mouse */
+  }
+  
+  .registro-actividades-footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  

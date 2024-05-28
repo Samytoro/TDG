@@ -1,0 +1,79 @@
+.solicitud-convenio-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.solicitud-convenio-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.solicitud-convenio-header img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.solicitud-convenio-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  }
+
+.solicitud-convenio-body h2 {
+    margin-top: 0;
+  color: #ad7c02; /* Cambiamos el color del texto */
+}
+
+
+.solicitud-convenio-body form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffeab4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.solicitud-convenio-body form label {
+  margin-bottom: 10px;
+}
+
+.solicitud-convenio-body form input,
+.solicitud-convenio-body form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.solicitud-convenio-body form button {
+  background-color: #FFB800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.solicitud-convenio-body form button:hover {
+  background-color: #DAAA00;
+}
+
+.solicitud-convenio-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

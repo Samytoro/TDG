@@ -1,0 +1,91 @@
+.herramientas-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .herramientas-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .herramientas-header img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .herramientas-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .planificacion,
+  .enlaces {
+    width: 80%;
+    padding: 20px;
+    background-color: #ffeab4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .planificacion h2,
+  .enlaces h2 {
+    margin-top: 0;
+    color: #ad7c02;
+  }
+  
+  .planificacion button,
+  .enlaces a {
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .planificacion button:hover,
+  .enlaces a:hover {
+    background-color: #DAAA00;
+  }
+  
+  .herramientas-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.solicitud-form-b {
+  background-color: #fff0cb;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  flex: 1; /* Hace que los elementos ocupen todo el espacio disponible */
+  margin-right: 10px; /* Espacio entre los elementos */
+}
+.solicitud-form-b textarea {
+  width: 60%;
+  height: 80px; /* Ajusta la altura del área de texto según sea necesario */
+  padding: 10px; /* Ajusta el relleno del área de texto */
+  font-size: 16px; /* Ajusta el tamaño de la fuente del área de texto */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,122 @@
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .perfil-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .perfil-header img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .perfil-body {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .perfil-info {
+    width: calc(30% - 40px);
+    min-height: 400px;
+    padding: 20px;
+    background-color: #ffeab4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .perfil-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .perfil-columnas-c {
+    display: flex;
+    width: 70%;
+  }
+  
+  .perfil-cursos-c {
+  background-color: #ffeab4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 10px;
+  }
+  
+  .perfil-notificaciones-d {
+  background-color: #ffeab4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 10px;
+  }
+  .perfil-cursos-j {
+    background-color: #ffeab4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10px;
+    }
+  .perfil-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .perfil-cursos-c h2,
+  .perfil-cursos-j h2,
+  .perfil-notificaciones-d h2
+  {
+    margin-top: 0;
+    color: #ad7c02;
+  }
+  
+  .perfil-cursos-c ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .perfil-cursos-c li {
+    margin-bottom: 10px;
+  }
+  
+  .perfil-cursos-c button {
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .perfil-cursos-c button:hover {
+    background-color: #DAAA00;
+  }
+  

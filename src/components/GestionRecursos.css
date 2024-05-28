@@ -1,0 +1,44 @@
+.perfil-columnas {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas si no caben en una sola fila */
+}
+
+
+.perfil-columnas h2{
+  margin-top: 0;
+  color: #ad7c02; /* Cambiamos el color del texto */
+}
+.equipos-lista,
+.becas-lista,
+.solicitud-form,
+.pubmed-search {
+  background-color: #fff0cb;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  flex: 1; /* Hace que los elementos ocupen todo el espacio disponible */
+  margin-right: 10px; /* Espacio entre los elementos */
+}
+
+.equipos-lista,
+.becas-lista {
+  min-width: 45%; /* Ancho mínimo para los elementos de equipos y becas */
+}
+
+.solicitud-form,
+.pubmed-search {
+  min-width: 90%; /* Ancho mínimo para los elementos de solicitud y búsqueda en Pubmed */
+}
+
+.solicitud-form textarea {
+  width: 60%;
+  height: 80px; /* Ajusta la altura del área de texto según sea necesario */
+  padding: 10px; /* Ajusta el relleno del área de texto */
+  font-size: 16px; /* Ajusta el tamaño de la fuente del área de texto */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,183 @@
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  }
+
+.perfil-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil-header img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.perfil-body {
+  flex-grow: 1;
+  display: flex;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.perfil-columnas {
+  display: flex;
+  width: 100%;
+}
+
+.perfil-info {
+  width: 60%;
+  padding: 20px;
+  background-color: #ffeab4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  height: calc(100vh - 160px);
+}
+
+.perfil-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30%;
+  margin-bottom: 20px;
+}
+
+
+.perfil-modulos {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-left: 10px;
+}
+
+.perfil-trabajo,
+.perfil-recursos,
+.perfil-herramientas,
+.perfil-registro-actividades {
+  background-color: #ffeab4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.perfil-footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cambiamos el color de los títulos de los módulos */
+.perfil-cursos h2,
+.perfil-trabajo h2,
+.perfil-recursos h2,
+.perfil-herramientas h2,
+.perfil-registro-actividades h2 {
+  margin-top: 0;
+  color: #ad7c02; /* Cambiamos el color del texto */
+}
+
+.perfil-cursos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.perfil-cursos li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #FFB800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #DAAA00;
+}
+
+.notificaciones-plazos-container {
+  background-color: #ffeab4;
+  position: relative;
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.recordatorios-icono {
+  position: absolute;
+  top: 5px; /* Ajusta esta distancia según sea necesario */
+  right: 5px; /* Ajusta esta distancia según sea necesario */
+  cursor: pointer;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #ffeab4;
+  color: #333;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 30px; /* Adjust to place tooltip below the icon */
+  right: 0; /* Align the tooltip properly */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #ffeab4 transparent;
+}
+
+/* Show the tooltip text when you click the tooltip container */
+.tooltip .tooltiptext.show {
+  visibility: visible;
+}
+
+/* Notification icon and tooltip container */
+.recordatorios-icono {
+  position: relative;
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+}

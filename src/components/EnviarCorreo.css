@@ -1,0 +1,86 @@
+.correo-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .correo-header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .correo-body {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .correo-form {
+    background-color: #ffeab4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .correo-form label {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .correo-form input,
+  .correo-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .correo-form button {
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .correo-form button:hover {
+    background-color: #DAAA00;
+  }
+  
+  .correo-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el fondo */
+  .fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://minas.medellin.unal.edu.co/images/minas/edificios/BloqueM5.jpg');
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.5; /* Ajusta la opacidad según sea necesario */
+  }
+  
